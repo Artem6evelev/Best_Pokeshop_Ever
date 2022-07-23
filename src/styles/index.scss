@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  // background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+strong,
+small {
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+:root {
+  --white: #fff;
+
+  --gray-50: #f7f8fa;
+  --gray-100: #e6e8eb;
+  --gray-200: #afb2b1;
+  --gray-500: #808080;
+
+  --red-100: #e75f5f;
+  --red-300: #ff0d00;
+  --red-500: #cb0000;
+
+  --blue-100: #594ea0;
+  --blue-300: #2611aa;
+  --blue-500: #17048b;
+
+  --green-100: #4cb84c;
+  --green-300: #00c500;
+  --green-500: #00a300;
+
+  --brown-100: #4f2a00;
+  --brown-300: #452c0f;
+  --brown-500: #321b00;
+}

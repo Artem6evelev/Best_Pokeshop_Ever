@@ -1,0 +1,95 @@
+.basketDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 91vh;
+  background-color: var(--gray-100);
+
+  .tableDisplay {
+    background: var(--white);
+    height: 25rem;
+    width: 95%;
+    max-width: 900px;
+    overflow-y: scroll;
+    i {
+      cursor: pointer;
+    }
+
+    table {
+      width: 100%;
+      thead {
+        font-family: "Arial";
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        background-color: var(--gray-100);
+
+        @media (max-width: 600px) {
+          font-size: 0.7rem;
+        }
+        th {
+          padding: 1rem 0.5rem;
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            border-top: 2px solid var(--gray-100);
+            padding: 0.2rem;
+            text-align: center;
+            height: 5rem;
+
+            img {
+              width: 5rem;
+
+              @media (max-width: 600px) {
+                width: 2.3rem;
+              }
+            }
+          }
+
+          .qtyButtons {
+            min-width: 85px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+              padding: 5px 8px;
+            }
+            button {
+              width: 20px;
+              height: 20px;
+              border-radius: 50px;
+              border: none;
+
+              i {
+                font-size: 0.8rem;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 89, 189);
+    width: 95%;
+    max-width: 900px;
+    padding: 10px;
+    color: white;
+
+    button {
+      padding: 6px 8px;
+      border: none;
+      color: var(--white);
+      background-color: var(--red-500);
+    }
+  }
+}

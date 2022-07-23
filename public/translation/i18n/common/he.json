@@ -1,0 +1,43 @@
+{
+  "pokemon_page": {
+    "title": "תיאור פוקימון"
+  },
+  "basket_page": {
+    "name": "שם",
+    "qty": "כמות",
+    "price": "מחיר",
+    "delete": "מחק",
+    "shopNow": "קנה עכשיו",
+    "total": "סהכ"
+  },
+  "hero": {
+    "title": "הפוקמאסטר הטוב ביותר?",
+    "subtitle": "עזור לאש לזכות באליפות העולם של פוקימון"
+  },
+  "pokemons_type": {
+    "waterPokemons": "פוקימוני מים",
+    "firePokemons": "אש פוקימונים",
+    "grassPokemons": "פוקימוני דשא",
+    "rockPokemons": "פוקימוני רוק"
+  },
+  "pokemon_card": {
+    "name": "שם",
+    "price": "מחיר",
+    "type": "סוּג",
+    "exp": "ניסיון",
+    "weight": "מִשׁקָל"
+  },
+  "navLinks": {
+    "about": "על אודות",
+    "contactUs": "איש קשר",
+    "home": "בית",
+    "translate": "תרגם",
+    "cart": "עגלה"
+  },
+  "buttons": {
+    "becomePokemaster": "pokemaster הפוך ל"
+  },
+  "inputs": {
+    "pokemonName": "שם הפוקימון"
+  }
+}

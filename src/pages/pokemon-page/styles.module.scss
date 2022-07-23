@@ -1,0 +1,55 @@
+.pokemonPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  //   height: 100vh;
+  //   background-color: var(--gray-100);
+
+  .pokemonCard {
+    display: flex;
+    padding: 20px;
+
+    @media only screen and(max-width: 750px) {
+      flex-direction: column;
+    }
+    div {
+      width: 300px;
+      height: 300px;
+
+      img {
+        background-color: var(--gray-100);
+        padding: 20px;
+        width: 300px;
+        border: 1px solid white;
+      }
+
+      .pokemonDetails {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 20px;
+        width: 300px;
+        background-color: rgb(3, 89, 189);
+        color: white;
+
+        h2 {
+          text-transform: capitalize;
+          font-size: 2rem;
+        }
+
+        h3 {
+          margin-top: 10px;
+        }
+
+        .basket {
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          font-size: 2rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

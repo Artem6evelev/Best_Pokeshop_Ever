@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+//pages
+import { BasketPage } from "./pages/basket-page/BasketPage";
+import { Stores } from "./pages/stores/Stores";
+import { PokemonPage } from "./pages/pokemon-page/PokemonPage";
+import { HomePage } from "./pages/home/HomePage";
+
+//providers
+import { BasketProvider } from "./context/basket-context";
+
+//components
+import NavBar from "./components/navbar/desktop/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BasketProvider>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/stores/:type" element={<Stores />} />
+          <Route path="/stores/pokemon/:id" element={<PokemonPage />} />
+          <Route path="/basket" element={<BasketPage />} />
+        </Routes>
+      </BrowserRouter>
+    </BasketProvider>
   );
 }
-
 export default App;

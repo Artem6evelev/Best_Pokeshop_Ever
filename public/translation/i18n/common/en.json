@@ -1,0 +1,43 @@
+{
+  "pokemon_page": {
+    "title": "Pokemon Description"
+  },
+  "basket_page": {
+    "name": "Name",
+    "qty": "Qty",
+    "price": "Price",
+    "delete": "Delete",
+    "shopNow": "SHOP NOW",
+    "total": "Total"
+  },
+  "hero": {
+    "title": "Best pokemaster?",
+    "subtitle": "Help Ash to win Pokemon World Championship"
+  },
+  "pokemons_type": {
+    "waterPokemons": "Water Pokemons",
+    "firePokemons": "Fire Pokemons",
+    "grassPokemons": "Grass Pokemons",
+    "rockPokemons": "Rock Pokemons"
+  },
+  "pokemon_card": {
+    "name": "Name",
+    "price": "Price",
+    "type": "Type",
+    "exp": "Exp",
+    "weight": "Weight"
+  },
+  "navLinks": {
+    "about": "About",
+    "contactUs": "Contact us",
+    "home": "Home",
+    "translate": "Translate",
+    "basket": "Basket"
+  },
+  "buttons": {
+    "becomePokemaster": "Become pokemaster"
+  },
+  "inputs": {
+    "pokemonName": "POKEMON NAME"
+  }
+}
